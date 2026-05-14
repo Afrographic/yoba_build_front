@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 41.54 41.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #e8e8e8;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="17.94" y1="11.28" x2="23.6" y2="11.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#15b9dc"/>
+      <stop offset="1" stop-color="#1565dd"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="20.77" y2="20.77" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" y1="30.25" y2="30.25" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer_1">
+    <g>
+      <g id="Layer_1-2">
+        <circle class="cls-4" cx="20.77" cy="20.77" r="20.77"/>
+      </g>
+      <g>
+        <circle class="cls-3" cx="20.77" cy="11.28" r="2.83"/>
+        <circle class="cls-2" cx="20.77" cy="20.77" r="2.83"/>
+        <circle class="cls-1" cx="20.77" cy="30.25" r="2.83"/>
+      </g>
+    </g>
+  </g>
+</svg>
