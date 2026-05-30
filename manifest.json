@@ -3,8 +3,8 @@
     "short_name":"BestDeal",
     "start_url":"/",
     "display":"standalone",
-    "background_color":"#1565dd",
-    "theme_color":"#1565dd",
+    "background_color":"#fff",
+    "theme_color":"#fff",
     "description":"Explorez, connectez et developpez votre activite grace a une plateforme complete, intuitive et securisee",
     "icons":[
         {
