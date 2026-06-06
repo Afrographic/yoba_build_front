@@ -1,3 +1,11 @@
+self.addEventListener("install", (event) => {
+  event.skipWaiting();
+});
+
+self.addEventListener("activate",(event)=>{
+  event.waitUntil(clients.claim());
+})
+
 self.addEventListener("push", (event) => {
   const data = event.data.json();
 
@@ -11,7 +19,5 @@ self.addEventListener("push", (event) => {
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
 
-  event.waitUntil(
-    clients.openWindow("/#/contacts?contacts=true")
-  );
+  event.waitUntil(clients.openWindow("/#/contacts?contacts=true"));
 });
