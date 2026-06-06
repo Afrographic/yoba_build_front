@@ -12,6 +12,6 @@ self.addEventListener("notificationclick", (event) => {
   event.notification.close();
 
   event.waitUntil(
-    clients.openWindow("/messages")
+    clients.openWindow("/#/contacts?contacts=true")
   );
 });
