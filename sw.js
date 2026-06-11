@@ -161,43 +161,8 @@ const STATIC_ASSETS = [
   "/icons/icon-512.png",
 ];
 
-self.addEventListener("install", (event) => {
-  event.skipWaiting();
 
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS)),
-  );
 
-});
-
-self.addEventListener("activate", (event) => {
-  event.waitUntil(
-    Promise.all([
-      clients.claim(),
-      caches
-        .keys()
-        .then((keys) =>
-          Promise.all(
-            keys
-              .filter((key) => key !== CACHE_NAME)
-              .map((key) => caches.delete(key)),
-          ),
-        ),
-    ]),
-  );
-});
-
-self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    caches
-      .match(event.request)
-      .then((response) => response || fetch(event.request)),
-  );
-});
-
-// self.addEventListener("activate",(event)=>{
-//   event.waitUntil(clients.claim());
-// })
 
 self.addEventListener("push", (event) => {
   const data = event.data.json();
@@ -213,4 +178,49 @@ self.addEventListener("notificationclick", (event) => {
   event.notification.close();
 
   event.waitUntil(clients.openWindow("/#/contacts?contacts=true"));
+});
+
+
+
+
+// Install and cache files
+self.addEventListener('install', event => {
+  self.skipWaiting();
+
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(cache => cache.addAll(STATIC_ASSETS))
+  );
+});
+
+
+// Activate immediately
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    Promise.all([
+      clients.claim(),
+    ])
+  );
+});
+
+// Serve cached files first
+self.addEventListener('fetch', event => {
+  if (event.request.method !== 'GET') return;
+
+  event.respondWith(
+    caches.match(event.request)
+      .then(cached => {
+        if (cached) return cached;
+
+        return fetch(event.request)
+          .then(response => {
+            const responseClone = response.clone();
+
+            caches.open(CACHE_NAME)
+              .then(cache => cache.put(event.request, responseClone));
+
+            return response;
+          });
+      })
+  );
 });
