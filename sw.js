@@ -4,7 +4,6 @@ const CACHE_NAME = "app-v1";
 
 const STATIC_ASSETS = [
   "/",
-  "/index.html",
   "/favicon.ico",
   "/manifest.json",
   "/assets/audios/ring.mp3",
