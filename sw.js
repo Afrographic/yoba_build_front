@@ -11,8 +11,8 @@ self.addEventListener("push", (event) => {
 
   self.registration.showNotification(data.title, {
     body: data.body,
-    // icon: data.icon,
-    // badge: data.badge,
+    icon: data.icon,
+    badge: data.badge,
   });
 });
 
