@@ -1,6 +1,5 @@
 {
-  "HOME": {
-    "TITLE": "Welcome",
-    "DESCRIPTION": "My Angular application"
+  "desktopHome": {
+    "addOffre": "Post an Offer"
   }
 }
