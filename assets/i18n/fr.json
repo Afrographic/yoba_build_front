@@ -1,5 +1,36 @@
 {
   "desktopHome": {
-    "addOffre": "Ajouter une offre"
+    "addOffre": "Ajouter une offre",
+    "mobile": "Mobile",
+    "detaillant": "Detaillants",
+    "fournisseur": "Fournisseur",
+    "gestionnaire": "Gestionnaire",
+    "searchText": "Rechercher un produit ou un vendeur...",
+    "search": "Recherche...",
+    "aucunElement": "Aucun element"
+  },
+  "addOffer": {
+    "desc": "Veuillez reseigner les informations relatifs a l'offre",
+    "offre": "Offer",
+    "importImage": "Importer les images",
+    "importVideos": "Importer les videos",
+    "prix": "Prix",
+    "descOffre": "Description de l'offre",
+    "publier": "Publier",
+    "categorie": "Categorie",
+    "selectCat": "Selectionner la categorie",
+    "titre": "Titre"
+  },
+  "chat": {
+    "communaute": "Communautes",
+    "searchContact": "Rechercher un contact...",
+    "searchCommunity": "Rechercher une communite...",
+    "gestionMembres": "Gestion des membres de",
+    "partagerLien": "Partager/Copier le lien",
+    "editCommunaute": "Editer la communaute",
+    "supprimerCommunaute": "Supprimer la communaute"
+  },
+  "profile": {
+    "lienAffiliation": "Lien d'affiliation"
   }
 }

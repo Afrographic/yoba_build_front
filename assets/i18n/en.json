@@ -1,5 +1,33 @@
 {
   "desktopHome": {
-    "addOffre": "Post an Offer"
+    "addOffre": "Add an Offer",
+    "mobile": "Mobile",
+    "detaillant": "Retailers",
+    "fournisseur": "Supplier",
+    "gestionnaire": "Manager",
+    "searchText": "Search for a product or a seller...",
+    "search": "Search...",
+    "aucunElement": "No items"
+  },
+  "addOffer": {
+    "desc": "Please provide the information related to the offer.",
+    "offre": "Offer",
+    "importImage": "Upload Images",
+    "importVideos": "Upload Videos",
+    "prix": "Price",
+    "descOffre": "Offer Description",
+    "publier": "Publish",
+    "categorie": "Category",
+    "selectCat": "Select a Category",
+    "titre": "Title"
+  },
+  "chat": {
+    "communaute": "Communauties",
+    "searchContact": "Search a contact...",
+    "searchCommunity": "Search a community...",
+    "gestionMembres": "Manage members of",
+    "partagerLien": "Share/Copy the link",
+    "editCommunaute": "Edit the communauty",
+    "supprimerCommunaute": "Delete the communauty"
   }
 }
