@@ -81,14 +81,14 @@
     "creerCompte": "Creer mon compte"
   },
   "typeCompte": {
-    "typeCompte":"Choisis ton type de compte",
-    "desc":"Veuillez choisir votre type de compte",
-    "mobileDesc":"Utilisateur individuel qui cherche ou partage les meilleures offres autour de lui",
-    "detaillantDesc":"Commerces qui vendent au public",
-    "fournisseurDesc":"Producteurs, grossistes, importateurs",
-    "gestionnaireDesc":"Entreprises qui offrent des services ou gèrent des établissements"
+    "typeCompte": "Choisis ton type de compte",
+    "desc": "Veuillez choisir votre type de compte",
+    "mobileDesc": "Utilisateur individuel qui cherche ou partage les meilleures offres autour de lui",
+    "detaillantDesc": "Commerces qui vendent au public",
+    "fournisseurDesc": "Producteurs, grossistes, importateurs",
+    "gestionnaireDesc": "Entreprises qui offrent des services ou gèrent des établissements"
   },
-   "createAccount": {
+  "createAccount": {
     "title": "Créer votre compte",
     "header": "Créer un compte {{type}}",
     "desc": "Veuillez remplir le formulaire ci-dessous",
@@ -106,7 +106,7 @@
     "terms": "conditions d'utilisation",
     "create": "Créer mon compte"
   },
-   "buyAds": {
+  "buyAds": {
     "title": "Acheter un espace publicitaire",
     "desc": "Veuillez choisir le type de publicité",
     "fullScreen": "Publicité en plein écran",
@@ -128,7 +128,7 @@
     "neighborhood": "Quartier / Rue",
     "save": "Éditer le profil"
   },
-  
+
   "admin": {
     "title": "Administration",
     "desc": "Configurer votre application grâce aux options ci-dessous",
@@ -181,6 +181,62 @@
     "week": "Cette semaine",
     "month": "Ce mois",
     "publications": "Publications"
+  },
+  "verifyEmail": {
+    "title": "Vérifier l'email",
+    "appName": "BestDeal",
+    "desc": "Nous avons envoyé un code de vérification à votre email ({{email}}). Vérifiez votre boîte de réception ainsi que vos spams.",
+    "codeLabel": "Insérez le code",
+    "button": "Vérifier"
+  },
+  "cniPhoto": {
+    "title": "Photo avec votre CNI",
+    "desc": "Veuillez prendre une photo avec votre CNI",
+    "record": "Filmer",
+    "preview": "Photo + CNI",
+    "save": "Enregistrer"
+  },
+  "cniVideo": {
+    "title": "Filmer la CNI",
+    "desc": "Veuillez filmer les deux faces de la carte d'identité",
+    "front": "Face avant",
+    "back": "Face arrière",
+    "recordFront": "Filmer la face avant",
+    "recordBack": "Filmer la face arrière",
+    "save": "Enregistrer"
+  },
+  "cniChoice": {
+    "title": "Carte d'identité",
+    "desc": "Importer une image contenant la face avant et la face arrière de votre carte d'identité ou filmer ces faces directement depuis l'application.",
+    "import": "Importer les images de la CNI",
+    "record": "Filmer les deux faces de la CNI"
+  },
+  "bio": {
+    "title": "Description",
+    "desc": "Veuillez fournir une brève description de ce que vous représentez sur BestDeal.",
+    "yourDescription": "Votre description",
+    "placeholder": "Votre description",
+    "save": "Enregistrer"
+  },
+   "idNumber": {
+    "title": "Numéro de la carte ou KIT du récépissé",
+    "desc": "Veuillez fournir une brève description de ce que vous représentez sur BestDeal.",
+    "label": "Numéro CNI",
+    "save": "Enregistrer"
+  },
+  "importCni": {
+    "title": "Importer la CNI",
+    "desc": "Veuillez importer la face avant et la face arrière de votre CNI ou récépissé.",
+    "front": "Face avant",
+    "back": "Face arrière",
+    "save": "Enregistrer"
+  },
+  "editPublication": {
+    "title": "Éditer une publication",
+    "importImages": "Importer les images",
+    "labelTitle": "Titre",
+    "labelPrice": "Prix",
+    "description": "Description de l'offre",
+    "edit": "Éditer"
   }
-
 }

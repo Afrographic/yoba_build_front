@@ -185,5 +185,63 @@
     "week": "This Week",
     "month": "This Month",
     "publications": "Publications"
+  },
+  "verifyEmail": {
+    "title": "Verify Email",
+    "appName": "BestDeal",
+    "desc": "We have sent a verification code to your email ({{email}}). Please check your inbox and spam folder.",
+    "codeLabel": "Enter the code",
+    "button": "Verify"
+  },
+   "cniPhoto": {
+    "title": "Photo with Your ID Card",
+    "desc": "Please take a photo with your ID card",
+    "record": "Record",
+    "preview": "Photo + ID Card",
+    "save": "Save"
+  },
+   "cniVideo": {
+    "title": "Record ID Card",
+    "desc": "Please record both sides of the ID card",
+    "front": "Front side",
+    "back": "Back side",
+    "recordFront": "Record Front Side",
+    "recordBack": "Record Back Side",
+    "save": "Save"
+  },
+  "cniChoice": {
+    "title": "ID Card",
+    "desc": "Upload an image containing the front and back sides of your ID card or record these sides directly from the application.",
+    "import": "Upload ID Card Images",
+    "record": "Record Both Sides of the ID Card"
+  },
+  "bio": {
+    "title": "Description",
+    "desc": "Please provide a brief description of what you represent on BestDeal.",
+    "yourDescription": "Your Description",
+    "placeholder": "Your description",
+    "save": "Save"
+  },
+  "idNumber": {
+    "title": "ID Card Number or Receipt KIT Number",
+    "desc": "Please provide a brief description of what you represent on BestDeal.",
+    "label": "ID Card Number",
+    "save": "Save"
+  },
+   "importCni": {
+    "title": "Upload ID Card",
+    "desc": "Please upload the front and back sides of your ID card or receipt.",
+    "front": "Front Side",
+    "back": "Back Side",
+    "save": "Save"
+  },
+  "editPublication": {
+    "title": "Edit Publication",
+    "importImages": "Upload Images",
+    "labelTitle": "Title",
+    "labelPrice": "Price",
+    "description": "Offer Description",
+    "edit": "Edit"
   }
+  
 }
