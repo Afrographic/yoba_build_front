@@ -238,5 +238,11 @@
     "labelPrice": "Prix",
     "description": "Description de l'offre",
     "edit": "Éditer"
+  },
+   "footer": {
+    "home": "Accueil",
+    "notifications": "Notifications",
+    "discussion": "Discussion",
+    "you": "Vous"
   }
 }

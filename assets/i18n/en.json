@@ -242,6 +242,12 @@
     "labelPrice": "Price",
     "description": "Offer Description",
     "edit": "Edit"
+  },
+  "footer": {
+    "home": "Home",
+    "notifications": "Notifications",
+    "discussion": "Chat",
+    "you": "You"
   }
   
 }
