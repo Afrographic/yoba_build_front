@@ -11,7 +11,7 @@
   },
   "addOffer": {
     "desc": "Veuillez reseigner les informations relatifs a l'offre",
-    "offre": "Offer",
+    "offre": "Offre",
     "importImage": "Importer les images",
     "importVideos": "Importer les videos",
     "prix": "Prix",
