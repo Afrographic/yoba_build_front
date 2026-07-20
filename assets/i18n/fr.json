@@ -7,7 +7,7 @@
     "gestionnaire": "Gestionnaire",
     "searchText": "Rechercher un produit ou un vendeur...",
     "search": "Recherche...",
-    "aucunElement": "Aucun element"
+    "aucunElement": "Vide"
   },
   "addOffer": {
     "desc": "Veuillez reseigner les informations relatifs a l'offre",

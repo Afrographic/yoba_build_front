@@ -7,7 +7,7 @@
     "gestionnaire": "Manager",
     "searchText": "Search for a product or a seller...",
     "search": "Search...",
-    "aucunElement": "No items"
+    "aucunElement": "Empty"
   },
   "addOffer": {
     "desc": "Please provide the information related to the offer.",
