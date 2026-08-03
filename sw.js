@@ -18,6 +18,6 @@ self.addEventListener("push", (event) => {
 
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
-
+console.log("Runner notif")
   event.waitUntil(clients.openWindow("/#/contacts?contacts=true"));
 });
