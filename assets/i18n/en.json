@@ -223,7 +223,7 @@
     "save": "Save"
   },
   "idNumber": {
-    "title": "ID Card Number or Receipt KIT Number",
+    "title": "ID Card Number",
     "desc": "Please provide a brief description of what you represent on BestDeal.",
     "label": "ID Card Number",
     "save": "Save"

@@ -219,7 +219,7 @@
     "save": "Enregistrer"
   },
    "idNumber": {
-    "title": "Numéro de la carte ou KIT du récépissé",
+    "title": "Numéro de la CNI",
     "desc": "Veuillez fournir une brève description de ce que vous représentez sur BestDeal.",
     "label": "Numéro CNI",
     "save": "Enregistrer"
