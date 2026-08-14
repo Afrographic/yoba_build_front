@@ -1,21 +1,35 @@
 {
-    "name":"BestDeal",
-    "short_name":"BestDeal",
-    "start_url":"/",
-    "display":"standalone",
-    "background_color":"#fff",
-    "theme_color":"#fff",
-    "description":"Explorez, connectez et developpez votre activite grace a une plateforme complete, intuitive et securisee",
-    "icons":[
+    "name": "lidav",
+    "short_name": "lidav",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "description": "Application complete de e-learning.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
         {
-            "src":"icons/icon-192.png",
-            "sizes":"192x192",
-            "type":"image/png"
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
         },
         {
-            "src":"icons/icon-512.png",
-            "sizes":"512x512",
-            "type":"image/png"
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ]
 }

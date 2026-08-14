@@ -1,83 +1,59 @@
-<!DOCTYPE html><html lang="en" style="overflow-x: hidden"><head>
-    <meta charset="utf-8">
-    <title>BestDeal</title>
-    <base href="/">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <link rel="icon" type="image/x-icon" href="assets/images/logo_v2.svg">
-    <script src="assets/scripts/jsstore.js"></script>
-    <script src="assets/scripts/socket.io.js"></script>
-    <script src="assets/scripts/chart.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="assets/scripts/froala.css" type="text/css" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/scripts/froala.css"></noscript>
+<!doctype html>
+<html>
+  <head>
+    <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
-    <!-- disables automatic phone/email/address detection on iOS Safari -->
-    <meta name="format-detection" content="telephone=no,email=no,address=no">
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
-    <!-- PWA tags -->
-    <link rel="icon" href="icons/icon-512.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+    <!-- <base href="/"> -->
 
-    <link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="Application complete de e-learning." />
 
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta
+      name="theme-color"
+      content="#ffffff"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#121212"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta name="color-scheme" content="light dark" />
 
-    <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
-  <style>body{background-size:360px}@font-face{font-family:raleway_regular;src:url(Manrope-Regular.ttf)}*{line-height:1.6em}:root{--main:#3c67af;--second:#f28920;--main2:#f5e5a4;--main3:#00193f;--grey:#e2e2e25c;--light_gray:#ebebeb;--light_blue:#223758;--overlay_color:#c89a376d;--bg-color:#fff;--text-color:#222;--primary-color:#1976d2;--card-color:#f5f5f5;--border-color:#e7e7e7;--icon-container:#dfdfdf}*{font-family:raleway_regular;box-sizing:border-box}.column,.row{display:flex}.column{flex-direction:column}.f1{flex:1}.g16{grid-gap:16px;gap:16px}body,html{scroll-behavior:smooth}body,html{height:100%}body{margin:0;font-family:Roboto,Helvetica Neue,sans-serif}@-webkit-keyframes cdk-text-field-autofill-start{}@-webkit-keyframes cdk-text-field-autofill-end{}.info{position:fixed;z-index:100000000000;top:-50px;opacity:0;left:50%;transform:translate(-50%,-50%);background-color:#fff;padding:12px;border-radius:8px;transition:.5s;display:flex;align-items:center;grid-gap:16px;gap:16px}:root{--swiper-theme-color:#007aff}:root{--swiper-navigation-size:44px}</style><link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.css"></noscript></head>
+    <!-- iOS meta tags & icons -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Lidav" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
 
-  <body class="body" id="parent">
-    <!-- Notification handler -->
-    <div class="info positive row g16" id="positive" style="
-        border-left: 10px solid #2267dd;
-        box-shadow: -1px 8px 20px 6px #5252521c;
-        width: 80vw;
-        max-width: 500px;
-      " onclick="this.classList.remove('info_visible')">
-      <img src="assets/images/success.svg" alt="" width="25px">
-      <div class="column f1">
-        <!-- <div style="font-weight:bold;font-size: 16px;">Notif</div> -->
-        <div class="tal" id="content" style="color: grey; font-size: 12px">
-          Message
-        </div>
-      </div>
-    </div>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
 
-    <div class="info negative" id="negative" style="
-        border-left: 10px solid #ee0125;
-        box-shadow: -1px 8px 20px 6px #5252521c;
-        width: 80vw;
-        max-width: 500px;
-      " onclick="this.classList.remove('info_visible')">
-      <img src="assets/images/error_msg.svg" alt="" width="25px">
-      <div class="column f1">
-        <div class="tal" id="content" style="color: grey; font-size: 12px">
-          Message
-        </div>
-      </div>
-    </div>
+    <title>Lidav</title>
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
 
-    <app-root></app-root>
-
-    <script type="text/javascript" src="assets/scripts/froala.js"></script>
-
-    <script>
-      const theme = localStorage.getItem("theme");
-
-      if (theme) {
-        document.documentElement.setAttribute("data-theme", theme);
-      } else {
-        const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-        document.documentElement.setAttribute(
-          "data-theme",
-          dark ? "dark" : "light",
-        );
-      }
-    </script>
-  <script src="runtime-es2017.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2017.js" type="module"></script><script src="scripts.js" defer></script><script src="main-es2017.js" type="module"></script><script src="main-es5.js" nomodule defer></script>
-
-</body></html>
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+    <script src="flutter_bootstrap.js" async></script>
+    <script src="push.js"></script>
+  </body>
+</html>
