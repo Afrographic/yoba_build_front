@@ -1,0 +1,248 @@
+{
+  "desktopHome": {
+    "addOffre": "Ajouter une offre",
+    "mobile": "Mobile",
+    "detaillant": "Detaillants",
+    "fournisseur": "Fournisseur",
+    "gestionnaire": "Gestionnaire",
+    "searchText": "Rechercher un produit ou un vendeur...",
+    "search": "Recherche...",
+    "aucunElement": "Vide"
+  },
+  "addOffer": {
+    "desc": "Veuillez reseigner les informations relatifs a l'offre",
+    "offre": "Offre",
+    "importImage": "Importer les images",
+    "importVideos": "Importer les videos",
+    "prix": "Prix",
+    "descOffre": "Description de l'offre",
+    "publier": "Publier",
+    "categorie": "Categorie",
+    "selectCat": "Selectionner la categorie",
+    "titre": "Titre"
+  },
+  "chat": {
+    "communaute": "Communautes",
+    "searchContact": "Rechercher un contact...",
+    "searchCommunity": "Rechercher une communite...",
+    "gestionMembres": "Gestion des membres de",
+    "partagerLien": "Partager/Copier le lien",
+    "editCommunaute": "Editer la communaute",
+    "supprimerCommunaute": "Supprimer la communaute"
+  },
+  "profile": {
+    "lienAffiliation": "Lien d'affiliation",
+    "position": "Mettre a jour ma position",
+    "publications": "Mes publications",
+    "publicites": "Mes publicites",
+    "favoris": "Mes favoris",
+    "portefeuille": "Portefeuille",
+    "acheterPub": "Acheter un espace publicitaire",
+    "profilePublic": "Votre profile public",
+    "agentNextBridge": "Devenir agent NextBridge",
+    "serviceNextBridge": "Service NextBridge",
+    "nextBridgeMessage": "Votre demande pour le service NextBridge est en cours de traitement",
+    "activationCompte": "Activation du compte",
+    "verifierEmail": "Verifier l'email",
+    "numeroId": "Numero de la carte d'identite",
+    "carteId": "Carte d'identite Recto/Verso",
+    "photoId": "Photo avec la carte d'identite",
+    "activationAttente": "Activation en attente",
+    "configCompte": "Configuration du compte",
+    "activationRejete": "Activation rejetee",
+    "descLocalisation": "Votre description et localisation",
+    "photosFaceStructure": "Photos de face de la structure",
+    "verifInfo": "Veuillez patientez, nos equipes verifient vos informations",
+    "filleuls": "Mes filleuls",
+    "editProfile": "Editer le profile",
+    "changerTypeCompte": "Changer le type de compte",
+    "administration": "Administration",
+    "verifierPhone": "Verifier le numero de telephone",
+    "deconnecter": "Me deconnecter",
+    "supprimerCompter": "Supprimer mon compte",
+    "aPropos": "A propos",
+    "conditionUtilisation": "Condition d'utilisation"
+  },
+  "previewOffre": {
+    "itineraire": "Connaitre l'itineraire",
+    "signaler": "Signaler la publication",
+    "favoris": "Mettre en favoris",
+    "publierPar": "Publie par",
+    "le": "On",
+    "profile": "Consulter le profile",
+    "discuss": "Discuter avec",
+    "contactAgent": "Contacter un agent NextBridge"
+  },
+  "login": {
+    "desc": " Veuillez remplir le formulaire ci-dessous afin de consulter votre compte",
+    "codeConnexion": "Code de connexion",
+    "connection": "Connection",
+    "pasDeCompte": "Vous ne possedez pas de compte?",
+    "creerCompte": "Creer mon compte"
+  },
+  "typeCompte": {
+    "typeCompte": "Choisis ton type de compte",
+    "desc": "Veuillez choisir votre type de compte",
+    "mobileDesc": "Utilisateur individuel qui cherche ou partage les meilleures offres autour de lui",
+    "detaillantDesc": "Commerces qui vendent au public",
+    "fournisseurDesc": "Producteurs, grossistes, importateurs",
+    "gestionnaireDesc": "Entreprises qui offrent des services ou gèrent des établissements"
+  },
+  "createAccount": {
+    "title": "Créer votre compte",
+    "header": "Créer un compte {{type}}",
+    "desc": "Veuillez remplir le formulaire ci-dessous",
+    "affiliateCode": "Code d'affiliation (Facultatif)",
+    "fullName": "Nom complet",
+    "email": "Email",
+    "country": "Pays de résidence",
+    "selectCountry": "Sélectionner votre pays",
+    "phone": "Numéro de téléphone",
+    "region": "Région",
+    "selectRegion": "Sélectionner votre région",
+    "city": "Ville ou ville la plus proche",
+    "selectCity": "Sélectionner votre ville",
+    "termsPrefix": "En créant votre compte, vous approuvez avoir lu et accepté nos",
+    "terms": "conditions d'utilisation",
+    "create": "Créer mon compte"
+  },
+  "buyAds": {
+    "title": "Acheter un espace publicitaire",
+    "desc": "Veuillez choisir le type de publicité",
+    "fullScreen": "Publicité en plein écran",
+    "fullScreenDesc": "Votre publicité s'affiche en plein écran lors de l'ouverture de l'application et tous les utilisateurs peuvent la voir.",
+    "homePage": "Publicité sur la page d'accueil",
+    "homePageDesc": "Votre publicité s'affiche à plusieurs endroits sur la page d'accueil sous forme de bannière."
+  },
+  "editProfile": {
+    "title": "Éditer le profil",
+    "desc": "Veuillez renseigner une mise à jour de vos informations",
+    "uploadAvatar": "Importer la photo de profil",
+    "fullName": "Nom complet",
+    "email": "Email",
+    "country": "Pays de résidence",
+    "phone": "Numéro de téléphone",
+    "region": "Région",
+    "city": "Ville",
+    "description": "Votre description",
+    "neighborhood": "Quartier / Rue",
+    "save": "Éditer le profil"
+  },
+
+  "admin": {
+    "title": "Administration",
+    "desc": "Configurer votre application grâce aux options ci-dessous",
+
+    "statistics": "Statistiques",
+    "offersToday": "Offres de ce jour, cette semaine et ce mois",
+    "offersLocation": "Offres par pays, régions et villes",
+    "offersCategory": "Offres par catégorie",
+    "publicationDynamics": "Dynamique des publications",
+    "usersLocation": "Utilisateurs par pays, régions et villes",
+
+    "users": "Utilisateurs",
+    "activateAccounts": "Activation des comptes",
+    "banUser": "Bannir un utilisateur",
+    "editBalance": "Modifier les soldes",
+    "notifyUsers": "Notifier les utilisateurs",
+    "reportedUsers": "Utilisateurs signalés",
+
+    "nextBridge": "NextBridge",
+    "agents": "Agents NextBridge",
+    "requests": "Requêtes pour le service NextBridge",
+
+    "wallet": "Portefeuille",
+    "minimumWithdrawal": "Montant minimum de retrait",
+    "withdrawals": "Gestion des retraits clients",
+    "deposits": "Gestion des dépôts clients",
+    "bestDealAccounts": "Comptes de dépôt BestDeal",
+    "depositHistory": "Historique des dépôts",
+    "withdrawalHistory": "Historique des retraits",
+
+    "advertising": "Publicité",
+    "createAd": "Créer une publicité",
+    "adPrices": "Prix des publicités",
+    "manageAds": "Gestion des publicités",
+
+    "publications": "Publications",
+    "deletePublication": "Supprimer une publication",
+    "reportedPublications": "Publications signalées",
+
+    "application": "Application",
+    "manageLocations": "Gestion des pays, villes et régions",
+    "manageCategories": "Gestion des catégories",
+    "faq": "FAQ",
+    "terms": "Conditions d'utilisation",
+    "about": "À propos"
+  },
+  "stats": {
+    "title": "Stat du jour, de la semaine et du mois",
+    "today": "Aujourd'hui",
+    "week": "Cette semaine",
+    "month": "Ce mois",
+    "publications": "Publications"
+  },
+  "verifyEmail": {
+    "title": "Vérifier l'email",
+    "appName": "BestDeal",
+    "desc": "Cliquer sur Recevoir le code et nous allons envoye un code de vérification à votre email ({{email}}). Vérifiez votre boîte de réception ainsi que vos spams. une fois que le code sera envoye",
+    "codeLabel": "Insérez le code",
+    "button": "Vérifier"
+  },
+  "cniPhoto": {
+    "title": "Photo avec votre CNI",
+    "desc": "Veuillez prendre une photo avec votre CNI",
+    "record": "Filmer",
+    "preview": "Photo + CNI",
+    "save": "Enregistrer"
+  },
+  "cniVideo": {
+    "title": "Filmer la CNI",
+    "desc": "Veuillez filmer les deux faces de la carte d'identité",
+    "front": "Face avant",
+    "back": "Face arrière",
+    "recordFront": "Filmer la face avant",
+    "recordBack": "Filmer la face arrière",
+    "save": "Enregistrer"
+  },
+  "cniChoice": {
+    "title": "Carte d'identité",
+    "desc": "Importer une image contenant la face avant et la face arrière de votre carte d'identité ou filmer ces faces directement depuis l'application.",
+    "import": "Importer les images de la CNI",
+    "record": "Filmer les deux faces de la CNI"
+  },
+  "bio": {
+    "title": "Description",
+    "desc": "Veuillez fournir une brève description de ce que vous représentez sur BestDeal.",
+    "yourDescription": "Votre description",
+    "placeholder": "Votre description",
+    "save": "Enregistrer"
+  },
+   "idNumber": {
+    "title": "Numéro de la CNI",
+    "desc": "Veuillez fournir une brève description de ce que vous représentez sur BestDeal.",
+    "label": "Numéro CNI",
+    "save": "Enregistrer"
+  },
+  "importCni": {
+    "title": "Importer la CNI",
+    "desc": "Veuillez importer la face avant et la face arrière de votre CNI ou récépissé.",
+    "front": "Face avant",
+    "back": "Face arrière",
+    "save": "Enregistrer"
+  },
+  "editPublication": {
+    "title": "Éditer une publication",
+    "importImages": "Importer les images",
+    "labelTitle": "Titre",
+    "labelPrice": "Prix",
+    "description": "Description de l'offre",
+    "edit": "Éditer"
+  },
+   "footer": {
+    "home": "Accueil",
+    "notifications": "Notifications",
+    "discussion": "Discussion",
+    "you": "Vous"
+  }
+}
